@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CurriculumVitae.Views.AboutPage">
+    <StackLayout>
+        <Label Text="Curriculum Vitae"
+               TextColor="Black"
+               FontSize="35"
+               Margin="0,10,0,0"
+               HorizontalOptions="Center" />
+        <Frame>
+            <StackLayout Spacing="10">
+                <Image Source="https://static.vecteezy.com/system/resources/previews/005/992/915/non_2x/resume-color-icon-cv-curriculum-vitae-personal-information-isolated-illustration-vector.jpg" />
+                <Label HorizontalOptions="Center"
+                       FontSize="20">Por José Luis Colcha</Label>
+                <Button Text="Iniciar"
+                        CornerRadius="20"
+                        FontSize="Medium"
+                        BackgroundColor="#FBDB44"
+                        TextTransform="None" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
+
