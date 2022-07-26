@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="CurriculumVitae.PersonalInformationPage">
+    <ContentPage Title="Información">
+        <Grid RowDefinitions="200,*"
+              Margin="35,0,35,0">
+            <Grid ColumnDefinitions="*,*">
+                <Image Grid.Row="0"
+                       Grid.Column="0"
+                       Source="https://i.ibb.co/nsc5DvQ/cv.png"
+                       Margin="0,0,0,0" />
+                <StackLayout Grid.Row="0"
+                             Grid.Column="1"
+                             VerticalOptions="Center">
+                    <Label Text="JOSÉ LUIS COLCHA"
+                           FontAttributes="Bold"
+                           TextColor="#22221F" />
+                    <Label Text="Software Developer" />
+                </StackLayout>
+            </Grid >
+            <StackLayout Grid.Row="1"
+                         Spacing="15">
+                <Label  Text="OBJETIVO PROFESIONAL"
+                        FontAttributes="Bold"
+                        BackgroundColor="#E8C58C" />
+                <Label  Text="Formar parte de una empresa en la cual pueda poner en práctica todos los conocimientos y tener la oportunidad de crecer en el área laboral, personal e intelectual" />
+                <Label  Text="CONTACTO"
+                        BackgroundColor="#E8C58C"
+                        FontAttributes="Bold" />
+                <Label  Text="- Teléfono: 0995455185" />
+                <Label  Text="- Dirección: La Legarda y Huachi N70-321" />
+                <Label  Text="- Teléfono: jose.colcha@outlook.es" />
+                <Label  Text="- LinkedIn: /joseluiscolcha" />
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Tab 2" />
+    <ContentPage Title="Tab 3" />
+</TabbedPage>
+    
