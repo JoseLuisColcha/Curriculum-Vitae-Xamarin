@@ -13,8 +13,9 @@ namespace CurriculumVitae
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            //  DependencyService.Register<MockDataStore>();
+            //MainPage = new AppShell();
+            MainPage = new PersonalInformationPage();
         }
 
         protected override void OnStart()
