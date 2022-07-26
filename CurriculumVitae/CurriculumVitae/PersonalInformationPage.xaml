@@ -35,7 +35,95 @@
             </StackLayout>
         </Grid>
     </ContentPage>
-    <ContentPage Title="Tab 2" />
-    <ContentPage Title="Tab 3" />
+    <ContentPage Title="Habilidades">
+        <Grid ColumnDefinitions="*,*"
+              Margin="30,20,30,0">
+            <StackLayout Grid.Column="0"
+                         Spacing="15"
+                         Margin="0,0,10,0">
+                <Label  Text="HABILIDADES BLANDAS"
+                        BackgroundColor="#E8C58C"
+                        FontAttributes="Bold" />
+                <Label  Text="- Autodidacta" />
+                <Label  Text="- Liderazgo" />
+                <Label  Text="- Flexibilidad" />
+                <Label  Text="- Planificación y gestión del tiempo" />
+            </StackLayout>
+            <StackLayout Grid.Column="1"
+                         Spacing="5"
+                         Margin="10,0,0,0">
+                <Label  Text="HABILIDADES DURAS"
+                        BackgroundColor="#E8C58C"
+                        FontAttributes="Bold" />
+                <Label  Text="Lenguajes de Programación"
+                        FontAttributes="Bold,Italic" />
+                <StackLayout Margin="10,0,0,0">
+                    <Label  Text="- C++" />
+                    <Label  Text="- C#" />
+                    <Label  Text="- Java" />
+                    <Label  Text="- Python" />
+                    <Label  Text="- JavaScript" />
+                    <Label  Text="- PHP" />
+                </StackLayout >
+                <Label  Text="Diseño Web y Frameworks"
+                        FontAttributes="Bold,Italic" />
+                <StackLayout Margin="10,0,0,0">
+                    <Label  Text="- CSS" />
+                    <Label  Text="- HTML" />
+                    <Label  Text="- Bootstrap" />
+                    <Label  Text="- React" />
+                    <Label  Text="- Angular" />
+                    <Label  Text="- NextJS" />
+                </StackLayout>
+                <Label  Text="Base de datos"
+                        FontAttributes="Bold,Italic" />
+                <StackLayout Margin="10,0,0,0">
+                    <Label  Text="- MySQL" />
+                    <Label  Text="- SQL Server" />
+                    <Label  Text="- MongoDB" />
+                    <Label  Text="- CouchDB" />
+                </StackLayout>
+                <Label  Text="Control de versiones"
+                        FontAttributes="Bold,Italic" />
+                <StackLayout Margin="10,0,0,0">
+                    <Label  Text="- Git" />
+                    <Label  Text="- GitHub" />
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Educación">
+        <Grid RowDefinitions="100,200,*"
+              Margin="40,20,40,0">
+            <StackLayout Grid.Row="0">
+                <Label  Text="FORMACIÓN ACADÉMICA"
+                        BackgroundColor="#E8C58C"
+                        FontAttributes="Bold" />
+                <Label Text="Escuela Politécnica Nacional (EPN)" />
+                <Label Text="Quito - Ecuador" />
+            </StackLayout>
+            <StackLayout Grid.Row="1">
+                <Label  Text="CURSOS"
+                        BackgroundColor="#E8C58C"
+                        FontAttributes="Bold" />
+                <Label Text="- UDEMY NextJS Avanzado" />
+                <Label Text="2021"
+                       Margin="10,0,0,0" />
+                <Label Text="- EDTEAM Laravel " />
+                <Label Text="2021"
+                       Margin="10,0,0,0" />
+                <Label Text="- GOOGLE ACTIVE Desarrollo de Aplicaciones móviles " />
+                <Label Text="2022"
+                       Margin="10,0,0,0" />
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <Label  Text="IDIOMAS"
+                        BackgroundColor="#E8C58C"
+                        FontAttributes="Bold" />
+                <Label Text="Inglés: B1" />
+                <Label Text="Español: Nativo" />
+            </StackLayout>
+        </Grid>
+    </ContentPage>
 </TabbedPage>
     
