@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CurriculumVitae.Views.ListCVPAge">
     <StackLayout>
-        <Label Text="Lista"
+        <Label Text="Lista de usuarios"
                HorizontalOptions="Center"
                FontAttributes="Bold"
                FontSize="30"
                TextColor="Black"
+               Margin="0,20,0,20"
                />
         <ListView x:Name="MyListView"
                   ItemTapped="Handle_ItemTapped"
