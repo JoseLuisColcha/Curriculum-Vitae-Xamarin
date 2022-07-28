@@ -20,10 +20,8 @@ namespace CurriculumVitae.Views
 
             Items = new ObservableCollection<string>
             {
-                "José luis Colcha",
-                "Name 2",
-                "Name 3",
-                "Name 4"
+                "José Luis Colcha",
+                "Wendy Palomo"
             };
 
             MyListView.ItemsSource = Items;
@@ -33,9 +31,14 @@ namespace CurriculumVitae.Views
         {
             if (e.Item == null)
                 return;
-
-            await Navigation.PushAsync(new PersonalInformationPage());
-
+            if(e.Item.Equals("José Luis Colcha"))
+            {
+                await Navigation.PushAsync(new PersonalInformationPage());
+            }
+            else
+            {
+                await Navigation.PushAsync(new PersonalInformationPage2());
+            }
             //Deselect Item
             ((ListView)sender).SelectedItem = null;
         }

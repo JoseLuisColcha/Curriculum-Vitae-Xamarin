@@ -12,7 +12,7 @@
             <StackLayout Spacing="10">
                 <Image Source="https://static.vecteezy.com/system/resources/previews/005/992/915/non_2x/resume-color-icon-cv-curriculum-vitae-personal-information-isolated-illustration-vector.jpg" />
                 <Label HorizontalOptions="Center"
-                       FontSize="20">Por José Luis Colcha</Label>
+                       FontSize="20">Por José Luis Colcha -Wendy Palomo</Label>
                 <Button Text="Iniciar"
                         CornerRadius="20"
                         FontSize="Medium"
