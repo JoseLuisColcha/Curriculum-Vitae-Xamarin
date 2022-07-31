@@ -1,4 +1,4 @@
-# Aplicación móvil desarrollada con Xamarin Forms
+# Aplicación móvil de CV desarrollada con Xamarin Forms
 Descripcion: Informacion CV de cada uno de los integrantes 
 
 ## Integrantes :frowning_man:
