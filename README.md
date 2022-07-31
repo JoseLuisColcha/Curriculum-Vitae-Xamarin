@@ -1,11 +1,11 @@
 # Aplicación móvil desarrollada con Xamarin Forms
 Descripcion: Informacion CV de cada uno de los integrantes 
 
-## Integrantes:
+## Integrantes :frowning_man:
 - José Luis Colcha
 - Wendy Palomo
 
-## APK
+## APK :iphone:
 
 La apk generada se encuentra en la carpeta [APK](https://github.com/JoseLuisColcha/Curriculum-Vitae-Xamarin/tree/master/Apk) de este repositorio.
 
