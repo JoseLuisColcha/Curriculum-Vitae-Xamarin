@@ -9,7 +9,7 @@ Descripcion: Informacion CV de cada uno de los integrantes
 
 La apk generada se encuentra en la carpeta [APK](https://github.com/JoseLuisColcha/Curriculum-Vitae-Xamarin/tree/master/Apk) de este repositorio.
 
-## Funcionamiento
+📌 ## Funcionamiento
 
 1. Página Principal
 
