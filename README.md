@@ -7,7 +7,7 @@ Descripcion: Informacion CV de cada uno de los integrantes
 
 ## APK
 
-
+La Apk generada se encuentra en la carpeta APK de este repositorio.
 
 ## Funcionamiento
 
