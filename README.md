@@ -1,5 +1,5 @@
 # Aplicación móvil de CV desarrollada con Xamarin Forms
-Descripcion: Informacion CV de cada uno de los integrantes 
+Descripción: Información CV de cada uno de los integrantes 
 
 ## Integrantes :frowning_man:
 - José Luis Colcha
